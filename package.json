@@ -2,13 +2,15 @@
   "name": "shipping",
   "version": "1.0.0",
   "description": "Shipping App",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
-    "electron-prebuilt": "^1.4.13",
-    "electron": "^1.6.2"
+    "angular": "^1.6.3",
+    "electron": "^1.6.2",
+    "electron-prebuilt": "^1.4.13"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
